@@ -85,6 +85,7 @@
       border-radius: 8px;
       overflow: hidden;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      text-align: justify;
     }
     
     .tabelaResponsiva-body td {
