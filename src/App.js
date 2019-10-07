@@ -32,7 +32,7 @@ export default function App() {
   };
 //PEGA DADOS DA PESSOA DA API
 useEffect(() => {
-  axios.get(`http://localhost:3000/api/dados_da_estacao`)
+  axios.get(`https://amaury-back.herokuapp.com/api/dados_da_estacao`)
   .then(res => {
     console.log(res.data);
     let ultimoIndex = res.data.length-1;
