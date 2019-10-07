@@ -136,7 +136,7 @@ const dataDoGrafico1 = () => {
               <Card 
                 icone="far fa-calendar-alt" 
                 valor={values.ultimoDiaDeRegistro}
-                texto={"Último dia"}
+                texto={"Data do Último Registro"}
                 cor={"#e53935"}
                 tamanhoFonte={"40pt"}
               />
@@ -145,7 +145,7 @@ const dataDoGrafico1 = () => {
               <Card 
                 icone="far fa-clock" 
                 valor={values.ultimoHoraDeRegistro}
-                texto={"Deste o último registro"}
+                texto={"Tempo Deste o Último Registro"}
                 cor={"#00acc1"}
                 tamanhoFonte={"20pt"}
               />
