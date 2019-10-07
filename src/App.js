@@ -145,7 +145,7 @@ const dataDoGrafico1 = () => {
               <Card 
                 icone="far fa-clock" 
                 valor={values.ultimoHoraDeRegistro}
-                texto={"Tempo Deste o Último Registro"}
+                texto={"Sem Registros Novos"}
                 cor={"#00acc1"}
                 tamanhoFonte={"20pt"}
               />
