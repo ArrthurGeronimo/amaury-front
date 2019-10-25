@@ -59,7 +59,7 @@ useEffect(() => {
 }, []);
 //MONTANDO A TABELA
 const valoresParaPreencherHeadDaTabela = [
-  "Data", "Hora", "TemperaturaAr", "Precipitação", "UmidadeAr", "PressãoAr", "TemperaturaSolo", "UmidadeSolo", "Vento", "NívelUv", "MédiaUv"
+  "Data", "Horário", "TemperaturaAr", "Precipitação", "UmidadeAr", "PressãoAr", "TemperaturaSolo", "UmidadeSolo", "Vento", "NívelUv", "MédiaUv"
 ]
 const preencherNaTabela = () => {
   return(
